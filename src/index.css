@@ -55,6 +55,38 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.container{
+  border-radius: 5px;
+  display: flex;
+  /* flex-direction: column; */
+  border:1px solid white;
+  margin-bottom:2rem;
+}
+
+.reply{
+  width:90%;
+  margin-left:auto;
+  display: flex;
+  border:1px solid white;
+  margin-bottom:2rem;
+  border-radius: 5px;
+}
+
+.body-header{
+  display: flex;
+  align-items: center;
+}
+
+.body-header img{
+  height:40px;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
+.body-header button{
+  margin-left:auto;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
